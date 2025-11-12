@@ -1,6 +1,6 @@
 import './globals.css';
 import Providers from './providers';
-import TemplateBase from '@/containers/templates/base';
+import LayoutBase from '@/containers/layouts/base';
 import { cn } from '@/utils/cn';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
@@ -41,7 +41,7 @@ export default function RootLayout({
     <html dir="rtl" lang="fa">
       <body className={cn('flex h-dvh flex-col', fontIranYekan.className)}>
         <Providers>
-          <TemplateBase>{children}</TemplateBase>
+          <LayoutBase>{children}</LayoutBase>
         </Providers>
       </body>
     </html>

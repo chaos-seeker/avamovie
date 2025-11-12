@@ -8,7 +8,7 @@ interface IProps {
   children: ReactNode;
 }
 
-export default function TemplateBase(props: IProps) {
+export default function LayoutBase(props: IProps) {
   return (
     <>
       <Header />
