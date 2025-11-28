@@ -2,7 +2,7 @@
 
 import { useToggleUrlState } from '@/hooks/toggle-url-state';
 import { cn } from '@/utils/cn';
-import { Category, CloseSquare, SearchNormal1 } from 'iconsax-react';
+import { CloseSquare, SearchNormal1 } from 'iconsax-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
